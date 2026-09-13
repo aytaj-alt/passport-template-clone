@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* HEADER */
+
+header {
+  background: linear-gradient(rgba(3, 0, 1, 0.421), rgba(0, 0, 0, 0.6)),
+  url(../image/task1.webp)center/cover;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contactus {
+  display: flex;
+  justify-content: end;
+}
+
+.pageflex {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  gap: 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links ul {
+  width: 500px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.4s;
+
+}
+
+.nav-links a:hover {
+  color: #fc8621;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border-radius: 6px;
+  min-width: 150px;
+  display: none;
+  z-index: 9999;
+  pointer-events: auto;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 14px;
+  color: #333;
+}
+
+.dropdown-menu li a:hover {
+  background: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.contact-btn {
+  padding: 10px 24px;
+  border: 1.5px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.contact-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.watch-video {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.play-circle {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.watch-video:hover .play-circle {
+  transform: scale(1.15);
+  transition: 0.3s;
+}
+
+.watch h1 {
+  margin: 150px 0 35px 0;
+  color: #fff;
+  font-size: 60px;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 24px;
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 120px;
+}
+
+.location-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-text strong {
+  font-weight: 500;
+}
+
+
+.alltext {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+* {
+  h3 {
+    color: #fc8621;
+    font: 600 22px arial;
+  }
+}
+
+* {
+  h2 {
+    font: 600 46px playfair display;
+  }
+}
+
+* {
+  p {
+    font: 300 14px arial;
+    margin: 20px 0;
+  }
+}
+
+.alltext span {
+  font: 300 15px arial;
+  display: block;
+
+}
+
+.alltext a {
+  display: inline-block;
+  margin-top: 40px;
+  color: #fff;
+  background-color: #fc8621;
+  border-radius: 20px;
+  padding: 10px 30px;
+  transition: .4s;
+}
+
+.alltext a:hover {
+  transform: scale(1.1);
+  transition: .4s;
+}
+
+#imgpage {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+#imgpage span {
+  color: rgba(66, 61, 61, 0.596);
+  font: 400 14px arial;
+}
+
+#imgpage h4 {
+  font: 700 30px playfair display;
+}
+
+#pagethreeandfour {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bgpagethree {
+  background-color: #f3f4f4;
+  margin-top: 100px;
+}
+
+.pagethree {
+  margin: 100px 0;
+}
+
+.pagethree img {
+  border-radius: 50%;
+  width: 80px;
+  display: block;
+  margin: 40px 0 20px 0;
+}
+
+.pagethree span {
+  color: #fc8621;
+  font: 600 18px playfair display;
+}
+
+.pagethree h4 {
+  font: 500 15px playfair display;
+}
+
+.pagefour {
+  margin: 100px 0;
+}
+
+.faq p {
+  color: white;
+  background-color: #fc8621;
+  font: 800 16px playfair display, serif;
+  padding: 15px 0 15px 40px;
+
+}
+
+.faq article {
+  margin: 40px 0 40px;
+}
+
+
+.content {
+  margin-top: 100px;
+}
+
+.imagess {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 48px 0 80px 0;
+}
+
+.imagess a {
+  color: #fc8621;
+  font: 400 14px arial;
+}
+
+.bgstart {
+  padding: 50px 0;
+  background-color: #fc8621;
+  display: flex;
+  align-items: center;
+}
+
+.bgstart h3 {
+  color: white;
+  font: 600 25px playfair display;
+  margin-right: 500px;
+}
+
+.bgstart a {
+  display: inline;
+  padding: 10px 24px;
+  border: 1.5px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-right: 50px;
+}
+
+.bgstart a:hover {
+  background: #fff;
+  color: #fc8621;
+}
+
+.bgfooter {
+  background-color: #f3f4f4;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px 100px 0;
+}
+
+#footer p,
+#footer a {
+  color: rgba(66, 61, 61, 0.596);
+  font: 400 14px arial;
+}
+
+#footer h4 {
+  font: 700 18px playfair display;
+  margin-bottom: 20px;
+}
+
+#footer a {
+  display: block;
+  margin: 10px 0;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons a {
+  background-color: gray;
+  color: #fff;
+  padding: 12px;
+  transition: .4s;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer-icons a i {
+  display: inline;
+  font-size: 18px;
+
+}
+
+.footer-icons a:hover {
+  background-color: #fc8621;
+  color: #fff;
+}
+
+.mainabout {
+  color: #fff;
+  margin: 200px 0 240px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.mainabout h1 {
+  font-size: 60px;
+}
+
+.mainabout p {
+  font-size: 16px;
+  width: 600px;
+  text-align: center;
+}
+
+.ourservices {
+  margin: 100px 0;
+}
+
+.ourservices h2 {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.ourservices h4 {
+  font: 600 20px playfair display;
+  margin-bottom: -20px;
+}
+
+.homecard i {
+  background-color: bisque;
+  height: 80px;
+  width: 80px;
+  padding-top: 14px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fc8621;
+  margin: 20px 0 25px 0;
+}
+
+.homecard {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.homecard p {
+  font: 400 14px arial;
+  text-align: center;
+}
+
+#allservicecard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
