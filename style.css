@@ -10,7 +10,7 @@
 
 header {
   background: linear-gradient(rgba(3, 0, 1, 0.421), rgba(0, 0, 0, 0.6)),
-  url(../image/task1.webp)center/cover;
+  url('./img/task1.webp') center/cover;
   min-height: 100vh;
 }
 
